@@ -5,7 +5,7 @@ const output = document.getElementById("output");
 async function callMe(){
     let promise = new Promise((resolve)=>{
         setTimeout(()=>{
-            resolve("Hello, World");
+            resolve("Hello, World!");
         }, 1000)
     })
     return promise;
